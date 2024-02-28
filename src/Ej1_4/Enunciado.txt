@@ -1,0 +1,33 @@
+EJERCICIO BIBLIOTECA:
+En este ejercicio, se te pide implementar un sistema de biblioteca que gestione libros y revistas.
+Se proporcionan las clases Publicacion, Prestable, Revista, Libro, y Biblioteca.
+Tu tarea es entender y completar las clases según las especificaciones dadas.
+ - Clase Publicacion:
+    La clase Publicacion representa una publicación genérica con atributos como ISBN, título y año de publicación.
+    Atributos:
+        • isbn (String): Número ISBN de la publicación.
+        • Titulo (String): Título de la publicación.
+        • Anio (int): Año de publicación de la obra.
+        • Constructor: Implementa un constructor que inicialice los atributos isbn, titulo, y anio con los valores proporcionados.
+        • Método toString: Sobrescribe el método toString para devolver una representación legible de la publicación, incluyendo ISBN, título y año de publicación.
+ - Interfaz Prestable
+    La interfaz Prestable define los métodos necesarios para gestionar el estado de prestado de una publicación.
+    Métodos:
+        • presta(): Marca la publicación como prestada.
+        • devuelve(): Marca la publicación como devuelta.
+        • estaPrestado(): Devuelve true si la publicación está prestada, false si no lo está.
+ - Clase Revista
+    La clase Revista extiende la clase Publicacion y agrega atributos específicos para las revistas.
+    Atributos Adicionales:
+        • numero (int): Número de la revista.
+        • Constructor: Implementa un constructor que inicialice los atributos heredados y el atributo específico número.
+ - Clase Libro
+    La clase Libro extiende la clase Publicacion e implementa la interfaz Prestable.
+    Agrega funcionalidades para gestionar el estado de prestado de los libros.
+    Atributos Adicionales:
+        - prestado (boolean): Indica si el libro está prestado o no.
+ - Clase Biblioteca
+    La clase Biblioteca contiene el método main para probar las funcionalidades de las clases implementadas.
+        • Crea instancias de libros y revistas.
+        • Realiza préstamos y devoluciones.
+        • Muestra información sobre el estado de las publicaciones.
