@@ -1,0 +1,8 @@
+EJERCICIO BANCO
+Implementar una aplicación para gestionar la información de los empleados y clientes de un banco, teniendo en cuenta que un empleado puede ser, a la vez, cliente del banco.
+Para ello, crear una única clase Persona que implemente las interfaces Cliente y Empleado.
+Para simplificar solo se van a tener en cuenta los siguientes atributos:
+    • Como empleado: número de horas trabajadas en el mes.
+    • Como cliente: saldo de su cuenta.
+    • Comunes: DNI (inmutable una vez creado), nombre y dos booleanos que digan si es cliente y/o empleado.
+Escribir un programa donde se crea un empleado que es cliente y se incrementa su número de horas trabajadas y su saldo como cliente.
