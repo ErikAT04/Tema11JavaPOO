@@ -1,0 +1,3 @@
+EJERCICIO COLA ENTEROS HASTA NEGATIVOS
+Utilizando la lista anterior, escribir un programa en el que se encolen números introducidos por teclado, hasta que se introduzca uno negativo.
+A continuación, desencolarlos todos a medida que se muestre por pantalla.
