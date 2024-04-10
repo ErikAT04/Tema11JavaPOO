@@ -1,0 +1,5 @@
+Diseñar la clase Futbolista con los siguientes atributos: dni, nombre, edad y número de goles.
+Implementar:
+    • Un constructor y los métodos toString () y equals () (este último basado en el DNI)
+    • La interfaz Comparable con un criterio de ordenación basado también en el DNI.
+Además, añadir un comparador que ordene los futbolistas por edades y, para aquellos que tienen la misma edad, por nombres.

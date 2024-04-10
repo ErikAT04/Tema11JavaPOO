@@ -1,0 +1,13 @@
+Codificar la clase Socio que tiene como atributos
+    • Id
+    • Nombre
+    • Fecha de nacimiento (De tipo LocalDate)
+El constructor será así:
+    public Socio(int id, String nombre, String fechaNacimiento) {
+        this.id = id;
+        this.nombre = nombre;
+        DateTimeFormatter f = DateTimeFormatter.ofPattern("dd-MM-yyyy");
+        this.fechaNacimiento = LocalDate.parse(fechaNacimiento, f);
+    }
+El orden natural para comparar los socios (Comparable) será por número de identificación.
+Además, crear la comparadora que ordene los socios por orden alfabético de nombres.
